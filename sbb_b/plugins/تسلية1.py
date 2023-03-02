@@ -4,7 +4,7 @@ from collections import deque
 from . import edit_or_reply, sbb_b
 
 
-@sbb_b.ar_cmd(pattern="غبي$")
+@sbb_b.ar_cmd(pattern="شيت$")
 async def _(event):
     animation_interval = 1
     animation_ttl = range(14)
